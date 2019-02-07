@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let number = Int.random(in: 0...10)
         let n = Int(input.text!)
         if n == number{
-            resultLabel.text = "Correct Guess"
+            resultLabel.text = "Correct Guess!!"
         }
         else {
             resultLabel.text="Incorrect Guess, Correct number is \(number)"
